@@ -1,0 +1,108 @@
+
+
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: white;
+    /* margin: 0; */
+    padding: 0;
+  }
+
+
+
+
+  .background__main {
+     background-color: #4a4343;
+    height: 100%;
+  }
+
+  .background__main .wrap__out {
+    /* position: absolute;
+
+    left: 20%;
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px; */
+  }
+
+  .wrap__main {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .wrap__main h2 {
+    text-align: center;
+    color: white;
+  }
+
+  .wrap__main h2 i {
+    padding-left: 10px;
+  }
+
+  .wrap__form {
+    padding: 10px;
+    padding-top: 40px;
+  }
+
+
+  #btnRunCon i {
+    font-size: 20px;
+    color: white;
+    /* transform: rotate(32deg); */
+    /* line-height: 34px; */
+  }
+
+  #btnRunCon:hover {
+    background-color: azure;
+  }
+
+  #btnRunCon:hover i {
+
+    animation: tada;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+    /* don't forget to set a duration! */
+    color: #ffc107;
+
+  }
+
+  #btnShutCon i {
+    font-size: 20px;
+  }
+
+  #btnShutCon:hover {
+    background-color: azure;
+  }
+
+  #btnShutCon:hover i {
+    animation: jello;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    color: #dc3545;
+  }
+
+
+  .wordspace {
+    word-spacing: 12px;
+    text-align: left;
+  }
+
+  table td,
+  table th {
+    padding: 12px;
+  }
+
+  .loader {
+    
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
